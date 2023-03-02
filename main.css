@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 1500px;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-heading {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    margin-left: 35px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu {
+    margin-top: 160px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.contact {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+}
+.btn1 {
+    margin-right: 30px;
+}
+.btn1 button {
+    background-color: white;
+    border-color: #F54748;
+    color: #F54748;
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 40px;
+}
+.btn1 button:hover {
+    background-color: #F54748;
+    color: white;
+}
+.btn2 button {
+    background-color: #F54748;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 40px;
+}
+.btn2 button:hover {
+    background-color: white;
+    color: #F54748;
+    border-style: inset;
+}
+.logo_cart {
+    margin-right: 40px ;
+    margin-left: 50px;
+}
+a:hover {
+    color: #F54748;
+}
+.content .banner img {
+    width: 1440px;
+    margin-left: 80px;
+    border-radius: 80px 10px 80px 10px ;
+    margin-top: -50px;
+}
+.part1 {
+    display: flex;
+    width: 1440px;
+    margin-left: 60px;
+    font-style: italic;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+.part2 {
+    display: flex;
+    margin-top: 50px;
+    width: 1440px;
+    margin-left: 80px;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+}
+.part1 img {
+    width: 500px;
+}
+.part2 img {
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.text img {
+    width: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.textt img {
+    width: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.text p {
+    margin-top: 30px;
+}
+.textt p {
+    margin-top: 30px;
+}
+.part1:hover {
+    box-shadow: 5px 5px 5px 5px pink;
+    border-radius: 10px 10px;
+    color: green;
+
+}
+.part2:hover {
+    box-shadow: 5px 5px 5px 5px pink;
+    border-radius: 10px 10px;
+    color: green;
+}
+.part3 img {
+    width: 200px;
+}
+.part3 {
+    margin-left: 80px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.story {
+    width: 500px;
+    display: flex;
+    margin-top: 30px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 100px;
+}
+.story img {
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.story:hover {
+    box-shadow: 2px 2px 2px 2px yellowgreen;
+    border-radius: 10px 10px 10px 10px;
+    color: palevioletred;
+}
+.vecto {
+    margin-top: 20px;
+}
+.vecto img {
+    margin-left: 100px;
+}
+.vecto2 img {
+    width: 800px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.choco-banner img{
+    width: 1400px;
+    margin-left: 80px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+.product img {
+    width: 300px;
+}
+.main-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -60px;
+}
+.product {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.product img {
+    width: 350px;
+}
+.menu-heading {
+    margin-top: -70px;
+    margin-bottom: -100px;
+}
+.product:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px 10px 10px 10px;
+}

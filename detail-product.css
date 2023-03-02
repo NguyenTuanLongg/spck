@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 1500px;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-heading {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+}
+.menu li {
+    margin-left: 35px;
+    font-size: 20px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu {
+    margin-top: 160px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.contact {
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+}
+.btn1 {
+    margin-right: 30px;
+}
+.btn1 button {
+    background-color: white;
+    border-color: #F54748;
+    color: #F54748;
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 40px;
+}
+.btn1 button:hover {
+    background-color: #F54748;
+    color: white;
+}
+.btn2 button {
+    background-color: #F54748;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 80px;
+    height: 40px;
+}
+.btn2 button:hover {
+    background-color: white;
+    color: #F54748;
+    border-style: inset;
+}
+.logo_cart {
+    margin-right: 40px ;
+    margin-left: 50px;
+}
+a:hover {
+    color: #F54748;
+}
+.carousel-inner img {
+    width: 100px;
+}
+.img {
+    display: flex;
+}
+.intro {
+    margin-left: 900px;
+    text-align: left;
+
+}
+.intro h4 {
+    color: red;
+    margin-top: 50px;
+}
+.intro h1 {
+    margin-top: -150px;
+}
+.type {
+    display: flex;
+    margin-top: 40px;
+}
+.type button {
+    margin-left: 20px;
+}
+.carousel-inner {
+    border-style: groove;
+}
+.product a {
+    text-decoration: none;
+}
+.menu-heading {
+    margin-top: -70px;
+    margin-bottom: -100px;
+}
+.btn {
+    width: 300px;
+    height: 80px;
+    margin-top: 50px;
+    
+}
+.btn button {
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 80px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn button:hover {
+    color: green;
+    background-color: white;
+    border-color: green;
+    
+}

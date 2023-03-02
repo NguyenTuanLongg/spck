@@ -1,0 +1,74 @@
+.content {
+    margin-left: 550px;
+    margin-top: 45px;
+}
+.content .logo_heading img {
+    margin-left: 170px;
+}
+.text_form h3 {
+    margin-left: 143px;
+}
+.text_form h1 {
+    margin-left: 48px;
+}
+.text_form {
+    margin-top: 110px;
+    margin-bottom: 48px;
+}
+.form input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: palevioletred;
+}
+.form input:hover {
+    box-shadow: 2px 2px 2px 2px;
+}
+.form button {
+    width: 409px;
+    height: 53px;
+}
+.btn button {
+    background-color: palevioletred;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+}
+.btn button:hover {
+    background-color: white;
+    color: palevioletred;
+    border-color: palevioletred;
+    border-style: solid;
+} 
+.form p {
+    font-size: 16px;
+    color: #4A5568;
+    font-weight: bolder;
+}
+.btn1 button {
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+}
+.btn1 button:hover {
+    background-color: white;
+}
+.btn1 button{
+    display: flex;
+    padding-left: 102px;
+    padding-top: 12px;
+}
+.btn1 p {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 2px;
+}
+.btn1 button p:hover {
+    color: black;
+}
