@@ -106,3 +106,33 @@ let showProduct2 = (data) => {
     }
 }
 showProduct2(listArrProduct2)
+
+
+
+let newProduct = JSON.parse(localStorage.getItem("product"));
+if(newProduct == null) {
+    localStorage.setItem("product",JSON.stringify(listArrProduct2))
+}
+const addPro = () =>{
+    let img = document.querySelector(".img").value;
+    let name = document.querySelector(".name").value;
+    let price = document.querySelector(".price").value;
+    let newa = {
+        id : newProduct.length+1,
+        img : img , 
+        name : name ,
+        price : price
+    }
+    newProduct.push(newa)
+    console.log(newProduct);
+    localStorage.setItem("product",JSON.stringify(newProduct))
+    window.location.href = "product.html";
+    }
+    console.log(newProduct);
+    let formProduct = document.querySelector("#addProduct");
+    if(formProduct) {
+        formProduct.addEventListener("submit", (e)=>{
+            e.preventDefault();
+            addPro()
+        })
+    }

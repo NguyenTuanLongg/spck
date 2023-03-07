@@ -34,10 +34,14 @@
 
     if (check) {
         alert("success!")
-        localStorage.setItem("name", name)
-        localStorage.setItem("email", email)
-        localStorage.setItem("mk", password)
-
+        newList = {
+            name : name, 
+            email : email, 
+            pass : password
+        }
+        localStorage.setItem("newList", JSON.stringify(newList) )
+        console.log(newList) 
+        window.location.href("git_infor.html")
     }
 }
 valide()
